@@ -1,0 +1,89 @@
+ /* font-family: 'PT Serif', serif; */
+
+ /* COMMON CONFİGS
+ html : font size 10px
+ rem : related html
+ em: related body
+ */
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ html{
+     font-size: 10px;
+ }
+ body{
+    font-family: 'PT Serif', serif, Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 10, 20);
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    font-size: 1.7rem;
+ }
+ a{
+     text-decoration: none;
+ }
+
+ header{
+     height: 44rem;
+     position: relative;
+    
+ }
+
+ header .image-header{
+     height: 50rem;
+     width: 100%;
+     background-image: url(../image/headersea.jpg);
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ header h1{
+     padding: 11rem;
+     font-size: 5rem;
+ }
+
+.btn-header {
+    font-weight: 400px;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    transition: all 0.4;
+    border: 1px, solid, white
+}
+
+.btn-header:hover{
+    background-color: blue;
+    opacity: 0.4;
+    color: white;
+}
+
+#division-1-main{
+
+padding-top: 100px
+}
+/*
+
+#division-2-list{
+
+}*/
+
+img  {
+    height: auto;
+    width: 80%;
+}
+
+
+
+
+
+
+
+ 
